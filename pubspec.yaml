@@ -1,0 +1,23 @@
+name: morfsms_local
+
+description: MorfSms Local - gateway SMS Android para Perfex CRM
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  mobile_scanner: ^5.2.1
+  shared_preferences: ^2.2.3
+  device_info_plus: ^10.1.0
+  package_info_plus: ^8.0.0
+  telephony_sdt: ^0.0.3
+  sms_sender: ^1.0.5
+
+flutter:
+  uses-material-design: true
